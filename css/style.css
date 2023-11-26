@@ -200,3 +200,7 @@ nav li a:first-child:focus {
   letter-spacing: 0.02em;
   color: var(--light-grey);
 }
+
+.img {
+  display: block;
+}
