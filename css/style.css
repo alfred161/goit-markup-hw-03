@@ -22,6 +22,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-blue);
+  margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -30,6 +31,8 @@ body {
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 nav li a:first-child {
@@ -38,6 +41,7 @@ nav li a:first-child {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--grey);
+  padding: 24px 0;
 }
 
 nav li a:first-child:hover,
@@ -218,4 +222,9 @@ div {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
