@@ -107,14 +107,14 @@ nav li a:first-child:focus {
 }
 
 .section-two {
-  padding: 0;
+  padding: 120px 0;
 }
 
 .visually-hidden {
   display: none;
 }
 
-.section-two-item {
+.section-two-items {
   gap: 24px;
 }
 
