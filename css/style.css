@@ -201,6 +201,6 @@ nav li a:first-child:focus {
   color: var(--light-grey);
 }
 
-.img {
+img {
   display: block;
 }
