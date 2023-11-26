@@ -5,6 +5,7 @@
   --light-blue: #4d5ae5;
   --light-blue-focus: #404bbf;
   --dirty-white: #f4f4fd;
+  --white-a: #e7e9fc;
 }
 
 body {
@@ -203,4 +204,18 @@ nav li a:first-child:focus {
 
 img {
   display: block;
+}
+
+.header {
+  border-bottom: 1px solid var(--white-a);
+}
+
+div {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
