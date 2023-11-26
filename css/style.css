@@ -111,7 +111,7 @@ nav li a:first-child:focus {
 }
 
 .visually-hidden {
-  display: none;
+  visibility: hidden;
 }
 
 .section-two-items {
@@ -119,7 +119,7 @@ nav li a:first-child:focus {
 }
 
 .section-two-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 
 .section-two-header {
@@ -138,11 +138,16 @@ nav li a:first-child:focus {
 }
 
 .section-three {
+  padding-bottom: 120px;
+}
+
+.section-three-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: var(--grey);
+  padding-bottom: 120px;
 }
 
 .section-four {
