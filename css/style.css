@@ -119,7 +119,7 @@ nav li a:first-child:focus {
 }
 
 .values-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 96px) / 4);
 }
 
 .values-header {
