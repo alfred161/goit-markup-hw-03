@@ -256,7 +256,7 @@ nav li a:first-child:focus {
   text-decoration: none;
 }
 
-.service-description {
+.service-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -265,7 +265,7 @@ nav li a:first-child:focus {
   margin-bottom: 8px;
 }
 
-.service-type {
+.service-category {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -320,4 +320,8 @@ div {
   padding: 32px 16px;
   border: 1px solid var(--white-a);
   border-top: none;
+}
+
+.section-portfolio {
+  padding-top: 96px;
 }
