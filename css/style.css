@@ -120,6 +120,9 @@ nav li a:first-child:focus {
 
 .section-one-item {
   width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-one-header {
@@ -218,7 +221,6 @@ nav li a:first-child:focus {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer-content {
