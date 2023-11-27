@@ -118,7 +118,7 @@ nav li a:first-child:focus {
   gap: 24px;
 }
 
-.section-one-item {
+.section-one-item:first-child {
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -212,8 +212,8 @@ nav li a:first-child:focus {
 }
 
 .footer-logo {
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-content {
