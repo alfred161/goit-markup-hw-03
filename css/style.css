@@ -106,7 +106,7 @@ nav li a:first-child:focus {
   cursor: pointer;
 }
 
-.section-one {
+.values {
   padding: 120px 0;
 }
 
@@ -118,11 +118,11 @@ nav li a:first-child:focus {
   gap: 24px;
 }
 
-.section-one-item:first-child {
-  width: calc((100% - 48px) / 3);
+.values-item {
+  width: calc((100% - 48px) / 4);
 }
 
-.section-one-header {
+.values-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -131,17 +131,17 @@ nav li a:first-child:focus {
   margin-bottom: 8px;
 }
 
-.section-one-content {
+.values-content {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-grey);
 }
 
-.section-two {
+.products {
   padding-bottom: 120px;
 }
 
-.section-two-header {
+.products-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -151,16 +151,16 @@ nav li a:first-child:focus {
   margin-bottom: 72px;
 }
 
-.section-two-item {
+.products-item {
   width: calc((100% - 48px) / 3);
 }
 
-.section-three {
+.employees {
   background-color: var(--dirty-white);
   padding: 120px 0;
 }
 
-.section-three-header {
+.employees-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -170,10 +170,10 @@ nav li a:first-child:focus {
   margin-bottom: 72px;
 }
 
-.section-three ul li {
+.employees ul li {
   background-color: var(--white);
 }
-.section-three li:first-child {
+.employees li:first-child {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
