@@ -186,7 +186,7 @@ nav li a:first-child:focus {
 
 .team {
   width: calc((100% - 72px) / 4);
-  border-radius: (0px 0px 4px 4px);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .employee {
@@ -212,12 +212,19 @@ nav li a:first-child:focus {
 
 .footer {
   background-color: var(--grey);
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-content {
   line-height: 1.5;
   color: var(--dirty-white);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .footer-logo-studio {
