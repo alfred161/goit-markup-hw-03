@@ -225,9 +225,7 @@ nav li a:first-child:focus {
   margin-bottom: 16px;
 }
 
-.footer a,
-.footer span,
-.footer p {
+.footer div {
   display: inline-block;
 }
 
