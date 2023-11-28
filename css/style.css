@@ -226,7 +226,8 @@ nav li a:first-child:focus {
 }
 
 .footer,
-.footer div {
+.footer div,
+.footer a {
   display: inline-block;
 }
 
