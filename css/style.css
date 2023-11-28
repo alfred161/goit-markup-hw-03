@@ -219,14 +219,11 @@ nav li a:first-child:focus {
 .footer {
   background-color: var(--grey);
   padding: 100px 0;
+  display: inline-block;
 }
 
 .footer-logo {
   margin-bottom: 16px;
-}
-
-.footer div {
-  display: inline-block;
 }
 
 .footer-content {
