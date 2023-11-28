@@ -132,10 +132,6 @@ nav li a:first-child:focus {
   width: calc((100% - 72px) / 4);
 }
 
-.vfirst {
-  width: calc((100% - 72px) / 4);
-}
-
 .values-header {
   font-weight: 500;
   font-size: 20px;
@@ -227,9 +223,6 @@ nav li a:first-child:focus {
 
 .footer-logo {
   margin-bottom: 16px;
-}
-
-footer a {
   display: inline-block;
 }
 
@@ -242,6 +235,7 @@ footer a {
 
 .footer-logo-studio {
   color: var(--dirty-white);
+  display: inline-block;
 }
 
 .profile-button {
