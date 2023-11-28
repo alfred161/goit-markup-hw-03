@@ -323,8 +323,8 @@ div {
   row-gap: 48px;
 }
 
-.services-list {
-  width: calc((100% - 48px) / 3);
+.service {
+  width:calc((100% - 48px) / 3);
 }
 
 .service div {
