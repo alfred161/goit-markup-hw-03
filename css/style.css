@@ -226,6 +226,10 @@ nav li a:first-child:focus {
   display: inline-block;
 }
 
+.footer-logo a {
+  display: inline-block;
+}
+
 .footer-content {
   line-height: 1.5;
   color: var(--dirty-white);
