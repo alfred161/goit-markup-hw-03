@@ -33,6 +33,7 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
+  padding: 0;
 }
 
 nav li a:first-child {
@@ -126,7 +127,6 @@ nav li a:first-child:focus {
 
 .section-items {
   gap: 24px;
-  padding: 0;
 }
 
 .values-item {
