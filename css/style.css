@@ -83,6 +83,7 @@ nav li a:first-child:focus {
   letter-spacing: 0.02em;
   color: var(--white);
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -100,10 +101,11 @@ nav li a:first-child:focus {
   background-color: var(--light-blue);
   border-radius: 4px;
   cursor: pointer;
+  margin: 48px auto 0;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-button:focus,
+.hero-button:hover {
   background-color: var(--light-blue-focus);
   cursor: pointer;
 }
@@ -221,6 +223,7 @@ nav li a:first-child:focus {
 .footer {
   background-color: var(--grey);
   padding: 100px 0;
+  display: flex;
 }
 
 .footer-logo {
