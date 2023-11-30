@@ -126,6 +126,7 @@ nav li a:first-child:focus {
 
 .section-items {
   gap: 24px;
+  padding: 0;
 }
 
 .values-item {
@@ -324,7 +325,7 @@ div {
 }
 
 .service {
-  width:calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .service div {
